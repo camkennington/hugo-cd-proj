@@ -1,0 +1,14 @@
+{
+ "author": "budparr",
+ "bugs": {
+  "url": "https://github.com/theNewDynamic/gohugo-theme-ananke/issues"
+ },
+ "comments": {
+  "dependencies": {},
+  "devDependencies": {
+   "auto-changelog": "project",
+   "cssnano": "project",
+   "postcss-cli": "project",
+   "postcss-cssnext": "project",
+   "tachyons": "project"
+  }
