@@ -5,6 +5,7 @@ environment_variables:
   plaintext:
     HUGO_VERSION: "0.79.1"
     
+    
 phases:
   install:
     commands:                                                                 
@@ -14,7 +15,8 @@ phases:
       - mv hugo /usr/bin/hugo
       - cd 
       - rm -rf /tmp/*
-  build:
+      
+       build:
     commands:
       - rm -rf public
       - hugo 
